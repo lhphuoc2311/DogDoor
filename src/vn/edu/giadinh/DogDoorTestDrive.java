@@ -12,7 +12,8 @@ public class DogDoorTestDrive {
         System.out.println("Fido get out");
         System.out.println("Todd and Gina press Remote");
         System.out.println("Do his business");
-        System.out.println();
+        System.out.println("Done");
+        System.out.println("Fido bark to get in");
 
         
     }
