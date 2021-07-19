@@ -6,7 +6,8 @@ public class DogDoor {
     public DogDoor(){
         open = false;
     }
-
+    
+    //TODO: update close automatically door @
     public void open(){
         System.out.println("Open the door");
         open = true;
