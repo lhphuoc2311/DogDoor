@@ -1,7 +1,7 @@
 package vn.edu.giadinh;
 
 public class DogDoor {
-    private boolean open;
+    private boolean open;//true - open - false: close
 
     public DogDoor(){
         open = false;
@@ -9,12 +9,12 @@ public class DogDoor {
     
     //TODO: update close automatically door @
     public void open(){
-        System.out.println("Open the door");
+        System.out.println("The dog door open");
         open = true;
     }
 
     public void close(){
-        System.out.println("Close the door");
+        System.out.println("The dog dor close");
         open = false;
     }
 
